@@ -1,0 +1,20 @@
+1. 샘플 데이터 다운로드
+    => http://dev.mysql.com/doc/index-other.html
+
+*** Sakila 데이터베이스 ***
+root@wl ~ # cd sakila-db
+root@wl ~/sakila-db # mysql -u root
+mysql> source sakila-schema.sql
+mysql> source sakila-data.sql
+mysql> use sakila;
+mysql> show tables;
+
+
+*** World 데이터베이스 ***
+root@wl ~ # mysql -u root
+mysql> create database world;
+mysql> use world;
+mysql> source world_innodb.sql
+mysql> desc City;
+
+

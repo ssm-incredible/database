@@ -1,0 +1,1 @@
+"mysql-5.5.16\bin\mysqld" --console
